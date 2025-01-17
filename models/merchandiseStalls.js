@@ -1,6 +1,6 @@
-module.exports = (DataTypes, sequelize) => {
-    const merchandiseStall = sequelize.define(
-        'merchandiseStall',
+module.exports = (sequelize, DataTypes) => {
+    const merchandiseStalls = sequelize.define(
+        'merchandiseStalls',
         {
             stallName: DataTypes.STRING,
             itemAvailable: DataTypes.STRING,
@@ -10,5 +10,5 @@ module.exports = (DataTypes, sequelize) => {
             timestamps: true
         }
     )
-    return merchandiseStall;
+    return merchandiseStalls;
 }

@@ -1,4 +1,4 @@
-module.exports = (DataTypes, sequelize) => {
+module.exports = (sequelize, DataTypes) => {
     const concert = sequelize.define(
         'concert',
         {

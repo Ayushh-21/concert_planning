@@ -1,4 +1,4 @@
-module.exports = (DataTypes, sequelize) => {
+module.exports = (sequelize, DataTypes) => {
     const afterParties = sequelize.define(
         'afterParties',
         {

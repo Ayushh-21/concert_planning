@@ -1,4 +1,4 @@
-module.exports = (DataTypes, sequelize) => { 
+module.exports = (sequelize, DataTypes) => {
     const tour = sequelize.define(
         'tour',
         {
